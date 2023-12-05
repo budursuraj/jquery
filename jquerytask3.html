@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>task3</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("#ok").mouseenter(function(){
+    $("#down").slideDown(5000);
+  });
+  $("#ok").mouseleave(function(){
+    $("#down").stop();
+  });
+
+   $("#ok").click(function(){
+     $("#down").slideUp(5000);
+  });
+});
+</script>
+<style >
+	#ok{
+		height: 50px;
+		width: 100%;
+		background: blue;
+		color: white;
+		text-align: center;
+		font-size:25px;
+	}
+
+	#down{
+		height: 600px;
+		width: 100%;
+		background: green;
+		display: none;
+	}
+</style>
+
+
+</head>
+<body>
+	<div id="ok">
+		<h3>HD PHOTO</h3>
+
+		
+	</div>
+
+	<div id="down">
+		<img src="img/hd.jpg"style="height: 100%;width: 100%;">
+		
+	</div>
+
+</body>
+</html>

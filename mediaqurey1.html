@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>mediaqurey task1</title>
+	<style>
+		.h1{
+			height: 500px;
+	     	width: 100%;
+	     	background: ;
+		}
+
+		.h2{
+			height: 500px;
+			width: 23%;
+			background: white;
+			margin-left: 20px;
+			margin-top: 20px;
+			color: blue;
+			float: left;
+		}
+		.h3{
+			height: 500px;
+			width: 23%;
+			background: white;
+			margin-left: 20px;
+			margin-top: 20px;
+			color: green;
+			float: left;
+		}
+		.h4{
+			height: 500px;
+			width: 23%;
+			background: white;
+			margin-left: 20px;
+			margin-top: 20px;
+			color: red;
+			float: left;
+		}
+		.h5{
+			height: 500px;
+			width: 23%;
+			background: white;
+			margin-left: 20px;
+			margin-top: 20px;
+			color: darkblue;
+			float: left;
+		}
+
+		.body{
+			background: green;
+		}
+
+
+
+		@media(max-width:700px){
+
+			.body{
+				background: red;
+			}
+			.h2{
+			height: 550px;
+			width: 50%;
+			background: white;
+			margin-left: 0px;
+			margin-top: 20px;
+			color:darkblue;
+			font-size: 35px;
+			font-family: monospace;
+			float: left;
+		}
+		.h3{
+			height: 550px;
+			width: 50%;
+			background: white;
+			margin-left: 0px;
+			margin-top: 20px;
+			color: red;
+			font-size: 35px;
+			font-family: monospace;
+			float: left;
+		}
+		.h4{
+			height: 550px;
+			width: 50%;
+			background: white;
+			margin-left: 0px;
+			margin-top: 20px;
+			color:green;
+			font-size: 35px;
+			font-family: monospace;
+			float: left;
+		}
+		.h5{
+			height: 550px;
+			width: 50%;
+			background: white;
+			margin-left: 0px;
+			margin-top: 20px;
+			color: gray;
+			font-size: 35px;
+			font-family: monospace;
+			float: left;
+		}
+
+		}
+
+
+
+		@media(max-width:500px){
+
+
+			.body{
+				background: blue;
+			}
+			.h2{
+			height: 550px;
+			width: 100%;
+			background: white;
+			margin-left: 0px;
+			margin-top: 20px;
+			float: left;
+		}
+		.h3{
+			height: 550px;
+			width: 100%;
+			background: white;
+			margin-left: 0px;
+			margin-top: 20px;
+			float: left;
+		}
+		.h4{
+			height: 550px;
+			width: 100%;
+			background: white;
+			margin-left: 0px;
+			margin-top: 20px;
+			float: left;
+		}
+		.h5{
+			height: 550px;
+			width: 100%;
+			background: white;
+			margin-left: 0px;
+			margin-top: 20px;
+			float: left;
+		}
+
+
+
+		/*.h2{
+			height: 500px;
+			width: 6.66%;
+			background: blue;
+			float: left;
+		}
+		.h3{
+			height: 500px;
+			width: 6.66%;
+			background: yellow;
+			float: left;
+		}
+		.h4{
+			height: 500px;
+			width: 6.66%;
+			background: gray;
+			float: left;
+		}
+		.h5{
+			height: 500px;
+			width: 6.66%;
+			background: black;
+			float: left;
+		}
+		.h6{
+			height: 500px;
+			width: 6.66%;
+			background: red;
+			float: left;
+		}
+		.h7{
+			height: 500px;
+			width: 6.66%;
+			background: purple;
+			float: left;
+		}
+		.h8{
+			height: 500px;
+			width: 6.66%;
+			background: blue;
+			float: left;
+		}
+		.h9{
+			height: 500px;
+			width: 6.66%;
+			background: yellow;
+			float: left;
+		}
+		.h10{
+			height: 500px;
+			width: 6.66%;
+			background: red;
+			float: left;
+		}
+		.h11{
+			height: 500px;
+			width: 6.66%;
+			background: black;
+			float: left;
+		}
+		.h12{
+			height: 500px;
+			width: 6.66%;
+			background: gray;
+			float: left;
+		}
+		.h13{
+			height: 500px;
+			width: 6.66%;
+			background: purple;
+			float: left;
+		}
+		.h14{
+			height: 500px;
+			width: 6.66%;
+			background: red;
+			float: left;
+		}
+		.h15{
+			height: 500px;
+			width: 6.66%;
+			background: gray;
+			float: left;
+		}
+		.h16{
+			height: 500px;
+			width: 6.66%;
+			background: lightblue;
+			float: left;
+		}
+
+		.text{
+			text-align: center;
+			color: blue;
+		}
+
+		.text1{
+			text-align: center;
+			display: none;
+		}
+
+
+
+
+
+
+		@media(max-width:500px){
+			.h2{
+			height: 500px;
+			width: 20%;
+			background: blue;
+			float: left;
+		}
+		.h3{
+			height: 500px;
+			width: 20%;
+			background: yellow;
+			float: left;
+		}
+		.h4{
+			height: 500px;
+			width: 20%;
+			background: gray;
+			float: left;
+		}
+		.h5{
+			height: 500px;
+			width: 20%;
+			background: black;
+			float: left;
+		}
+		.h6{
+			height: 500px;
+			width: 20%;
+			background: red;
+			float: left;
+		}
+		.h7{
+			height: 500px;
+			width: 25%;
+			background: purple;
+			float: left;
+		}
+		.h8{
+			height: 500px;
+			width: 25%;
+			background: blue;
+			float: left;
+		}
+		.h9{
+			height: 500px;
+			width:25%;
+			background: yellow;
+			float: left;
+		}
+		.h10{
+			height: 500px;
+			width:25%;
+			background: red;
+			float: left;
+		}
+		.h11{
+			height: 500px;
+			width: 33.33%;
+			background: black;
+			float: left;
+		}
+		.h12{
+			height: 500px;
+			width:33.34%;
+			background: gray;
+			float: left;
+		}
+		.h13{
+			height: 500px;
+			width: 33.33%;
+			background: purple;
+			float: left;
+		}
+		.h14{
+			height: 500px;
+			width: 50%;
+			background: red;
+			float: left;
+		}
+		.h15{
+			height: 500px;
+			width: 50%;
+			background: gray;
+			float: left;
+		}
+		.h16{
+			height: 500px;
+			width: 100%;
+			background: lightblue;
+			float: left;
+		}
+
+		.text{
+			text-align: center;
+			color:darkblue;
+			font-size:50px;
+			font-family: cursive;
+		}
+		.text1{
+			text-align: center;
+			display: block;
+			color: red;
+			font-family: cursive;
+		}
+		}*/
+	</style>
+</head>
+<body class="body">
+	<!--<div class="h1">
+		 <div class="h2">
+			
+		</div>
+		<div class="h3">
+			
+		</div>
+		<div class="h4">
+			
+		</div>
+		<div class="h5">
+			
+		</div>
+		<div class="h6">
+			
+		</div>
+		<div class="h7">
+			
+		</div>
+		<div class="h8">
+			
+		</div>
+		<div class="h9">
+			
+		</div>
+		<div class="h10">
+			
+		</div>
+		<div class="h11">
+			
+		</div>
+		<div class="h12">
+			
+		</div>
+		<div class="h13">
+			
+		</div>
+		<div class="h14">
+			
+		</div>
+		<div class="h15">
+			
+		</div>
+		<div class="h16">
+			
+		</div>
+		
+		
+	</div>
+	<h1 class="text">Hypertext Markup Language</h1>
+	<br><br><br>
+	<h1 class="text1">my name suraj</h1> -->
+	<div class="h1">
+		<div class="h2">
+			<img src="img/1.jpg"style="height: 300px;width: 100%;">
+				<center><p>Groceries</p>
+		<h4>Assorted Coffee</h4>
+		<p></p>
+	</center>
+		</div>		
+	
+		<div class="h3">
+			<img src="img/2.jpg"style="height: 300px;width: 100%;">
+			<center>
+				<p>Juice</p>
+
+				<h4>Fresh Orange Juice
+
+Groceries
+</h4>
+			</center>
+
+			
+		</div>
+		<div class="h4">
+			<img src="img/3.jpg"style="height: 300px;width: 100%;">
+			<center>
+				<p>Groceries</p>
+
+				<h4>Hand Sanitizer
+
+Groceries
+</h4>
+			</center>
+			
+		</div>
+		<div class="h5">
+			<img src="img/4.jpg"style="height: 300px;width: 100%;">
+				<center>
+				<p>Groceries</p>
+
+				<h4>Handpicked Red Chillies
+
+Groceries
+</h4>
+			</center>
+			
+		</div>
+		
+	</div>
+
+</body>
+</html>

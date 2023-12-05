@@ -1,0 +1,270 @@
+.h1{
+		height: 600px;
+		width: 100%;
+		background: black;
+
+	}
+
+	.h2{
+		height: 300px;
+		width: 100%;
+		background: red;
+	}
+	.h3{
+		height: 300px;
+		width: 20%;
+		background: white;
+		margin-left: 50px;
+		text-align: center;
+		color: green;
+		float:left;
+	}
+	.h4{
+		height: 300px;
+		width: 20%;
+		background: white;
+		margin-left: 50px;
+		text-align: center;
+		color: red;
+		float:left;
+	}
+	.h5{
+		height: 300px;
+		width: 20%;
+		background: white;
+		margin-left: 50px;
+		text-align: center;
+		color: blue;
+		float: left;
+	}
+	.h6{
+		height: 300px;
+		width: 20%;
+		background: white;
+		margin-left: 50px;
+		text-align: center;
+		color: red;
+		float: left;
+	}
+
+
+
+
+
+
+	.h7{
+		height: 300px;
+		width: 100%;
+		background: blue;
+	}
+
+	.h8{
+		height: 300px;
+		width: 20%;
+		background: white;
+		margin-left: 50px;
+		text-align: center;
+		color: gold;
+		float: left;
+	}
+	.h9{
+		height: 300px;
+		width: 20%;
+		background: white;
+		margin-left: 50px;
+		text-align: center;
+		color: green;
+		float: left;
+	}
+	.h10{
+		height: 300px;
+		width: 20%;
+		background: white;
+		margin-left: 50px;
+		text-align: center;
+		color: darkblue;
+		float: left;
+	}
+	.h11{
+		height: 300px;
+		width: 20%;
+		background: white;
+		margin-left: 50px;
+		text-align: center;
+		color: darkcyan;
+		float: left;
+	}
+
+	@media(max-width:700px){
+
+		.h3{
+		height: 300px;
+		width: 50%;
+		background: white;
+		margin-left: 0px;
+		text-align: center;
+		font-family: cursive;
+		color: green;
+		float:left;
+	}
+	.h4{
+		height: 300px;
+		width: 50%;
+		background: white;
+		margin-left: 0px;
+		text-align: center;
+		font-family: cursive;
+		color: red;
+		float:left;
+	}
+	.h5{
+		height: 300px;
+		width: 50%;
+		background: white;
+		margin-left: 0px;
+		text-align: center;
+		font-family: cursive;
+		color: blue;
+		float: left;
+	}
+	.h6{
+		height: 300px;
+		width: 50%;
+		background: white;
+		margin-left: 0px;
+		text-align: center;
+		font-family: cursive;
+		color: red;
+		float: left;
+	}
+
+	.h8{
+		height: 300px;
+		width: 50%;
+		background: white;
+		margin-left: 0px;
+		text-align: center;
+		font-family: cursive;
+		color: gold;
+		float: left;
+	}
+	.h9{
+		height: 300px;
+		width: 50%;
+		background: white;
+		margin-left: 0px;
+		text-align: center;
+		font-family: cursive;
+		color: green;
+		float: left;
+	}
+	.h10{
+		height: 300px;
+		width: 50%;
+		background: white;
+		margin-left: 0px;
+		text-align: center;
+		font-family: cursive;
+		color: darkblue;
+		float: left;
+	}
+	.h11{
+		height: 300px;
+		width: 50%;
+		background: white;
+		margin-left: 0px;
+		text-align: center;
+		font-family: cursive;
+		color: darkcyan;
+		float: left;
+	}
+
+
+	}
+
+	@media(max-width:500px){
+
+		.h3{
+		height: 300px;
+		width: 100%;
+		background: white;
+		margin-left: 0px;
+		text-align: center;
+		font-family: cursive;
+		color: green;
+		float:left;
+	}
+	.h4{
+		height: 300px;
+		width: 100%;
+		background: white;
+		margin-left: 0px;
+		text-align: center;
+		font-family: cursive;
+		color: red;
+		float:left;
+	}
+	.h5{
+		height: 300px;
+		width: 100%;
+		background: white;
+		margin-left: 0px;
+		text-align: center;
+		font-family: cursive;
+		color: blue;
+		float: left;
+	}
+	.h6{
+		height: 300px;
+		width: 100%;
+		background: white;
+		margin-left: 0px;
+		text-align: center;
+		font-family: cursive;
+		color: red;
+		float: left;
+	}
+
+	.h8{
+		height: 300px;
+		width: 100%;
+		background: white;
+		margin-left: 0px;
+		text-align: center;
+		font-family: cursive;
+		color: gold;
+		float: left;
+	}
+	.h9{
+		height: 300px;
+		width: 100%;
+		background: white;
+		margin-left: 0px;
+		text-align: center;
+		font-family: cursive;
+		color: green;
+		float: left;
+	}
+	.h10{
+		height: 300px;
+		width: 100%;
+		background: white;
+		margin-left: 0px;
+		text-align: center;
+		font-family: cursive;
+		color: darkblue;
+		float: left;
+	}
+	.h11{
+		height: 300px;
+		width: 100%;
+		background: white;
+		margin-left: 0px;
+		text-align: center;
+		font-family: cursive;
+		color: darkcyan;
+		float: left;
+	}
+
+	}
+

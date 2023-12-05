@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+	<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $(".none").hide();
+  });
+  $("#btn").dblclick(function(){
+    $(".showup").show();
+  });
+});
+
+
+$(document).ready(function(){
+  $("div").mouseenter(function(){
+    $("h1").css({"background-color": "yellow", "font-size": "200%","margin-left" : "100px"});
+  });
+});
+</script>
+</head>
+<body>
+<center>
+<h1 class="my">TODAY LEARNING JQUERY</h1>
+<p class="my">TODAY LEARNING JQUERY</p>
+<p class="my">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</center>
+
+<button id="hide">GAYAB</button>
+
+<button id="show">AAJA</button>
+
+
+<!-- 
+<h5 class="gayab show">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h5>
+
+
+<button class="btn">HIDE</button>
+<button id="btn">SHOW</button> -->
+
+<h1 class="none showup">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h1>
+
+<button id="btn">HIDE / SHOW</button>
+
+
+<div style="background:#98bf21;height:100px;width:100px;position:absolute;"></div>
+<div style="background:blue;height:100px;width:100px;position:absolute;top:200px;left: 0;"></div>
+<h1 >SLIDE THIS H1</h1>
+
+</body>
+</html>
